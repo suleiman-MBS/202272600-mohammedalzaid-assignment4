@@ -9,7 +9,7 @@
 This is the final, production-ready release of my personal portfolio web application. It brings together semantic structure, responsive CSS Grid layouts, asynchronous API integration, advanced state management, and custom micro-animations into a polished, professional product.
 
 ### 🔗 Live Demo
-> ** https://suleiman-mbs.github.io/202272600-mohammedalzaid-assignment4/**
+> **[Click Here to view the Live Portfolio](https://suleiman-mbs.github.io/202272600-mohammedalzaid-assignment4/)**
 ---
 
 ## 🛠️ Final Features & Innovation (Assignment 4)
@@ -21,18 +21,18 @@ Building upon the GitHub API fetching and complex category filtering of previous
 *(Note: Previous interactive features like the dynamic time-based greeting, CSS3 micro-animations, and form validation are still fully active).*
 
 ---
-
 ## 📂 Repository Structure
 ```text
-202272600-mohammedalzaid-assignment3/
+202272600-mohammedalzaid-assignment4/
 ├── README.md               # Project overview
 ├── index.html              # Main HTML5 structure
 ├── css/
 │   └── styles.css          # Modern CSS3 with Variables
 ├── js/
 │   └── script.js           # Core interactivity, API calls & Logic
-├── assets/
-│   └── images/             # Project media
+├── presentation/
+│   ├── slides.pdf          # Presentation slides
+│   └── demo-video.mp4      # Project demonstration video
 └── docs/
     ├── ai-usage-report.md  # Required AI log
     └── technical-documentation.md # Technical implementation details
