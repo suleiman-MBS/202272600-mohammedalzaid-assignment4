@@ -60,7 +60,8 @@ This project utilized **AI-assisted development (Gemini)** to handle advanced Ja
 ## 🚀 How to Run Locally
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/suleiman-MBS/202272600-mohammedalzaid-assignment3.git](https://github.com/suleiman-MBS/202272600-mohammedalzaid-assignment3.git)
+    git clone [https://github.com/suleiman-MBS/202272600-mohammedalzaid-assignment4.git](https://github.com/suleiman-MBS/202272600-mohammedalzaid-assignment4.git)
+
 2. Open the project folder.
 3. Launch `index.html` in any modern web browser.
 
