@@ -1,4 +1,4 @@
-# 🚀 Portfolio Website - Assignment 3 (Advanced Functionality)
+# 🚀 Portfolio Website - Assignment 4 (Final Web Application)
 **Student:** MOHAMMED ALZAID (ID: 202272600)  
 **University:** King Fahd University of Petroleum & Minerals (KFUPM)  
 **Major:** Software Engineering (Junior)
@@ -6,19 +6,17 @@
 ---
 
 ## 📌 Project Overview
-Building upon the previous assignments, this version introduces **external API integration**, **complex logic filtering**, and **performance optimizations**. The portfolio showcases my transition into professional JavaScript programming, focusing on my interests in **Cybersecurity** and **Cloud Computing**.
+This is the final, production-ready release of my personal portfolio web application. It brings together semantic structure, responsive CSS Grid layouts, asynchronous API integration, advanced state management, and custom micro-animations into a polished, professional product.
 
 ### 🔗 Live Demo
-> ** https://suleiman-mbs.github.io/202272600-mohammedalzaid-assignment3/**
+> ** https://suleiman-mbs.github.io/202272600-mohammedalzaid-assignment4/**
 ---
 
-## 🛠️ Advanced Features (Assignment 3)
-In this phase, the following enhancements were implemented to meet the advanced functionality rubric:
-
-* **API Integration:** Dynamically fetches and displays my live public repositories using the **GitHub REST API**, ensuring my portfolio is always up-to-date.
-* **Complex Logic & Filtering:** Implemented a custom category-based filtering system to instantly sort my projects by "Cybersecurity" or "Cloud Computing" without reloading the page.
-* **Advanced State Management:** Extended `localStorage` capabilities. Alongside the Dark/Light theme, it now securely remembers the visitor's name to provide a personalized greeting across sessions.
-* **Performance Optimization:** Added event debouncing (via `setTimeout`) to the contact form submission to prevent rapid, repetitive firing of the submit function and reduce browser strain.
+## 🛠️ Final Features & Innovation (Assignment 4)
+Building upon the GitHub API fetching and complex category filtering of previous phases, this final submission includes:
+* **Innovation Feature:** A custom JavaScript "Typewriter" effect integrated into the main greeting. This simulates a live terminal typing experience, aligning with the portfolio's Cybersecurity and Threat Hunting theme.
+* **Production Polish:** Ensured consistent naming conventions, optimized layout compatibility across mobile and desktop, and thoroughly commented the JavaScript architecture.
+* **Professional Presentation:** Includes a comprehensive video demonstration and slide deck located in the `/presentation` folder.
 
 *(Note: Previous interactive features like the dynamic time-based greeting, CSS3 micro-animations, and form validation are still fully active).*
 

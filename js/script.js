@@ -128,4 +128,18 @@ setTimeout(() => {
     contactForm.reset();
 }, 1500);
 
+// --- 6. INNOVATION: Terminal Typing Effect ---
+const text = "Mohammed Alzaid";
+const typewriterElement = document.getElementById('typewriter');
+let i = 0;
+
+function typeWriter() {
+    if (i < text.length) {
+        typewriterElement.innerHTML += text.charAt(i);
+        i++;
+        setTimeout(typeWriter, 150); // Speed of typing
+    }
+}
+// Start typing effect after a short delay
+setTimeout(typeWriter, 500);
 });
