@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed Alzaid - Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">Mohammed Alzaid</div>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><button id="theme-toggle">🌙 Mode</button></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <div class="container">
+            <h1 id="greeting">Hi, I'm Mohammed Alzaid</h1>
+            <p class="tagline">Software Engineering Student @ KFUPM | Cybersecurity Enthusiast</p>
+            <p class="bio">I am a junior student passionate about Network Security, Threat Hunting, and building secure web applications. Currently an Oracle Student Ambassador.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            
+            <div class="filter-controls">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="security">Cybersecurity</button>
+                <button class="filter-btn" data-filter="cloud">Cloud Computing</button>
+            </div>
+
+            <div class="project-grid" id="main-projects">
+                <div class="card project-item" data-category="security">
+                    <h3>Fuzzing Research</h3>
+                    <p>Engineered a fuzzing environment using AFL++ to test open-source binaries for vulnerabilities.</p>
+                </div>
+                <div class="card project-item" data-category="cloud">
+                    <h3>Serverless Computing</h3>
+                    <p>Research paper analyzing cold-start latency and resource allocation in cloud environments.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="github-projects">
+        <div class="container">
+            <h2>Live GitHub Repositories</h2>
+            <div id="github-container" class="project-grid">
+                <p>Loading repositories...</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contactForm">
+                <input type="text" id="userName" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <div id="form-feedback"></div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Mohammed Alzaid. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
